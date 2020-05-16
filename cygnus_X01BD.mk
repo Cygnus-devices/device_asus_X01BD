@@ -23,7 +23,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, device/asus/X01BD/device.mk)
 
 # Inherit common PA configuration
-$(call inherit-product, vendor/cygnus/config/common_full_phone.mk)
+$(call inherit-product, vendor/cygnus/configs/common.mk)
 
 # Override AOSP build properties
 PRODUCT_NAME := cygnus_X01BD
